@@ -14,34 +14,42 @@ html, body {
 	top: 0; /* required - makes sure the menu sits where it's supposed to sit */
 	z-index: 1000; /* required - makes sure the menu doesn't get covered by anything else */
 	width: 100%; /* required - makes the menu go all the way across the viewport */
-	background-color: #ccc; 
+	background-color: #e58a99; 
 }
 .main-menu ul {
 	/* standard removal of UL styles */
 	margin: 0;
 	padding-left: 0;
 	list-style-type: none;
-
+	text-align: right;
+	background-color: #e58a99;
 	/* required - get LIs to line-up side-by-side */
 	display: flex;
-	justify-content: center; /* optional - lookup lots of options */
+	justify-content: right; /* optional - lookup lots of options */
+	float: right;
 }
+
 .main-menu a { 
 	/* typical - make links look/act like buttons */
 	display: block;
 	padding: 15px;
-	color: #666;
+	color: #7a0170;
+	background-color: ;
 	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 25px;
 }
-.main-menu a:hover { color: #ddd; }
+.main-menu a:hover { color: white; 
+}
 
 /*	****************************************
 	Long-scrolly sections
 	**************************************** */
 section {
     min-height: 100%; /* required - makes the sections act like pages */
-    padding-top: 75px; /* how tall is the persistent nav bar at the top? */
-    padding-bottom: 25px; /* typical - keep content away from the next section */
+    padding-top: 55px; /* how tall is the persistent nav bar at the top? */
+    padding-bottom: 15px; /* typical - keep content away from the next section */
+    margin-top: 20px;
     text-align: center; /* typical for long scrolly pages */
 }
 

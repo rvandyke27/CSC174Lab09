@@ -1,0 +1,202 @@
+
+
+/*	****************************************
+	Base Styles
+	**************************************** */
+
+h1{
+	color:#285c59;
+	font-family: 'Abril Fatface', cursive;
+	text-align: left;
+
+}
+
+h2 {
+	text-align: left;
+}
+
+h2, h3 {
+	font-family: 'Special Elite', cursive;
+}
+
+body {
+	color: #7a0170;
+	font-family: 'Merriweather', serif;
+
+}
+
+header {
+	background-color: #7a0170;
+
+}
+
+nav {
+	background-color: #7a0170;
+
+}
+
+article {
+	width:60%;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+
+aside {
+	padding-top:0px;
+	width: 40%;
+
+}
+
+article, aside{
+	display: table-cell;
+
+}
+
+
+
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+
+
+
+/** Layout**/
+
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+}
+
+.item {
+	margin-top: 10px;
+}
+
+
+.img {
+	width: 15%;
+	vertical-align: center;
+	margin-top: 20px;
+
+}
+
+.info {
+	width: 85%;
+	vertical-align: top;
+
+}
+
+.img, .info {
+	display: table-cell;
+	padding-right: 40px;
+	padding-top: 0px;
+}
+
+/** New Classes **/
+
+#classes {
+	background-color: #23006a;
+	color: #e58a99;
+	padding: 20px;
+	font-family: 'Special Elite', cursive;
+}
+
+.schedule {
+	color: #23006a;
+
+}
+
+.schedule h2 {
+	color: #7a0170;
+}
+
+
+
+/** Section 1**/
+
+.container-top {
+	margin-top: 70px;
+	text-align: center;
+	background-color: #a9b7d6;
+	
+
+}
+
+#first {
+	background-color: #a9b7d6;
+
+}
+
+#hero {
+	width: 100%;
+}
+
+
+.response {
+ 	width: 400px;
+ 	height: 200px;
+
+ }
+
+.response2 {
+ 	width:400px;
+ 	padding-top: 20px;
+ }
+
+
+
+
+
+
+/**Section 2**/
+
+#second {
+	background-color: #e8b36d;
+}
+
+/** Section 3**/
+
+#third {
+	background-color:#a9b7d6;
+
+
+	}
+
+#third h1, h2 {
+	text-align: left;
+}
+
+.card {
+	background-color: #e58a99;
+	color: #7a0170;
+	padding: 15px;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+}
+
+.card h3 {
+	font-size: 40px;
+	
+
+}
+
+.column1 {
+	width: 45%;
+	display: inline-block;
+	margin-right: 75px;
+	
+}
+
+.column2 {
+	width: 45%;
+	display: inline-block;
+	
+	
+}
